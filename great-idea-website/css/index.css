@@ -69,15 +69,14 @@ body{
 	max-width: 875px;
 }
 header{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	vertical-align: middle;
 }
 header nav{
-	display:flex;
-	width: 100%;
-	justify-content: space-between;
-	padding: 0 10em 0 10px;
+	margin-right: 65px;
+	display: inline;
+}
+header img{
+	display: inline;
 }
 header nav a{
 	padding:20px;
@@ -91,16 +90,13 @@ header nav a:hover{
 
 .content1{
 	margin:30px 0px;
-	display: flex;
-	justify-content: right;
-	align-items: center;
-	width:100%;
+	vertical-align: middle;
 }
 .content1 img{
-	margin:auto 0px auto auto;
+	display: inline-block;
 }
 .content1 .inner1{
-	width: 100%;
+	display: inline-block;
 }
 
 .content1 .inner1 div{
@@ -109,12 +105,11 @@ header nav a:hover{
 }
 
 .content1 .inner1 div h1{
-	font-size: 68pt;
+	font-size: 58pt;
 
 }
 .content1 .inner1 div .button-class{
 	border: 1px solid black;
-	display: inline-block;
 	margin: 20px;
 	padding:5px 30px;
 }
@@ -124,8 +119,6 @@ header nav a:hover{
 }
 
 .horizontal-part{
-	display: flex;
-	justify-content: space-between;
 }
 
 .lines-class{
@@ -136,7 +129,21 @@ header nav a:hover{
 	
 }
 .chunk{
+	display: inline-block;
 	margin:25px auto;
+	width:48%;
+}
+
+.chunk-1{
+	display: inline-block;
+	margin:25px auto;
+	width:30%;
+}
+
+.chunk-2{
+	text-align: left;
+	margin:25px 0px;
+	width:30%;
 }
 
 .center-text{
